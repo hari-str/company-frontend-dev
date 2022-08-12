@@ -1,0 +1,55 @@
+.about__section {
+  padding-bottom: 2rem;
+}
+.about__container {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.about__img img {
+  width: 470px;
+}
+
+.about__content h2 {
+  font-size: 30px;
+  font-weight: 700;
+  font-family: "Poppins", san-serif;
+  padding-bottom: 2.5rem;
+}
+.about__content .p {
+  text-align: justify;
+  text-indent: 5%;
+  line-height: 1.5;
+}
+
+.about__link {
+  text-align: center;
+  padding-top: 2rem;
+}
+
+.about__btn {
+  border: 1px solid gray;
+  border-radius: 4px;
+  padding: 5px 10px;
+  color: #000;
+}
+
+/* mobile screen */
+@media screen and (max-width: 768px) {
+  .about__container {
+    flex-direction: column;
+  }
+  .about__img img {
+    width: 370px;
+  }
+}
+
+/* tab screen  */
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .about__img img {
+    width: 430px;
+  }
+}
