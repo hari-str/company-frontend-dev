@@ -1,6 +1,85 @@
 .slider__section {
   padding: 2.4rem 0;
 }
-.slider__img img {
+.slider__img {
+  background-image: url("https://luzon-react.envytheme.com/images/home-one/slider-bg.jpg");
+  background-position: 50%;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  position: relative;
   width: 100%;
+  height: 100vh;
+  z-index: 1;
+}
+
+.slider__img:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  background: #086ad8;
+  opacity: 0.6;
+}
+
+.slider__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 1140px;
+  margin: 0 auto;
+  position: relative;
+  top: 5rem;
+}
+.slider__content h1 {
+  font-size: 70px;
+  line-height: 90px;
+  color: #fff;
+  margin: 5px 0 15px;
+  font-family: "Catamaran", sans-serif;
+}
+
+.slider__content p {
+  padding-bottom: 2rem;
+  color: #fff;
+}
+
+.default__btn {
+  display: inline-block;
+  padding: 14px 35px;
+  background-color: #086ad8;
+  color: #fff;
+  font-size: 15px;
+  font-weight: 500;
+  border-radius: 2px;
+  box-shadow: 5px 5px #10dce875;
+}
+
+.slider__animate img {
+  max-width: 550px;
+}
+@media screen and (max-width: 768px) {
+  .slider__container {
+    flex-direction: column;
+    gap: 2rem;
+    top: 0;
+    margin: 0 1rem;
+  }
+  .slider__content h1 {
+    font-size: 24px;
+    line-height: 42px;
+    text-align: center;
+  }
+  .slider__img {
+    height: 100%;
+    padding-top: 90px;
+    padding-bottom: 100px;
+  }
+
+  .slider__animate img {
+    width: 300px;
+  }
 }

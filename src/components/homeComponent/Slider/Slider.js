@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "./Slider.css";
 
 const Slider = () => {
@@ -6,10 +7,29 @@ const Slider = () => {
     <>
       <section className="slider__section">
         <div className="slider__img">
-          <img
-            src="https://png.pngtree.com/illustration/20190226/ourlarge/pngtree-2-5d-business-office-data-image_9804.jpg"
-            alt="logo"
-          />
+          <div className="slider__container">
+            <div className="slider__content">
+              <h1>Make Real-Life Connections With IT</h1>
+
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos,
+                nemo recusandae, veritatis magnam veniam unde vel commodi
+                voluptatibus voluptates iure beatae ipsam pariatur. Eveniet
+                eligendi sit odio. Veniam, aliquam eaque.
+              </p>
+              <div className="banner__btn">
+                <Link to="/contact" className="default__btn">
+                  Getstated
+                </Link>
+              </div>
+            </div>
+            <div className="slider__animate">
+              <img
+                src="https://luzon-react.envytheme.com/images/home-one/home-1-img1.png"
+                alt=""
+              />
+            </div>
+          </div>
         </div>
       </section>
     </>

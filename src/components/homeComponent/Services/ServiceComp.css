@@ -1,0 +1,135 @@
+.service {
+  padding: 4rem 0;
+  margin: 4rem 0;
+  background-color: #f0f4f8;
+}
+.service__container {
+  max-width: 1140px;
+  margin: 0 auto;
+  font-family: "Catamaran", san serif !important;
+}
+
+.section__content h2 {
+  font-size: 45px;
+  text-align: center;
+  margin-bottom: 2rem;
+  line-height: 1.1;
+  color: #212121;
+  font-family: "Catamaran", san serif;
+}
+
+.section__content p {
+  max-width: 750px;
+  margin: auto;
+  line-height: 1.8;
+  color: #666;
+  font-weight: 400;
+  font-family: Open Sans, sans-serif;
+  font-size: 15px;
+  text-align: center;
+}
+
+.section__row {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  margin: 4rem 0;
+}
+
+.row__item {
+  width: 30%;
+  text-align: center;
+  padding: 0rem 1.5rem;
+  background-color: #fff;
+  box-shadow: 0 5px 40px 0 rgb(0 0 0 / 11%);
+  border-radius: 10px;
+  transition: 0.5s ease;
+}
+
+.row__icon {
+  margin: 1rem 0;
+}
+
+.icon__shape1 {
+  background-color: #79e8e2;
+  padding: 20px;
+  width: 70px;
+  border-radius: 50%;
+  margin: auto;
+}
+
+.icon__shape2 {
+  background-color: #deb0fe;
+  padding: 20px;
+  width: 70px;
+  border-radius: 50%;
+  margin: auto;
+}
+.icon__shape3 {
+  background-color: #fcc774;
+  padding: 20px;
+  width: 70px;
+  border-radius: 50%;
+  margin: auto;
+}
+.icon__shape4 {
+  background-color: #84b7fd;
+  padding: 20px;
+  width: 70px;
+  border-radius: 50%;
+  margin: auto;
+}
+.icon__shape5 {
+  background-color: #fe929f;
+  padding: 20px;
+  width: 70px;
+  border-radius: 50%;
+  margin: auto;
+}
+.icon__shape6 {
+  background-color: #2e1342;
+  padding: 20px;
+  width: 70px;
+  border-radius: 50%;
+  margin: auto;
+}
+.web__icon {
+  color: #fff;
+  font-size: 23px;
+}
+
+.row__item h3 {
+  font-size: 23px;
+  font-weight: 500;
+  color: #212121;
+  margin-bottom: 1rem;
+}
+
+.row__item p {
+  font-size: 16px;
+  color: #666;
+  margin-bottom: 1rem;
+}
+
+.row__item a {
+  font-weight: 500;
+  color: #000;
+  margin-top: 1rem;
+}
+
+.row__item a:hover {
+  color: #086ad8;
+}
+@media screen and (max-width: 768px) {
+  .section__content h2 {
+    font-size: 30px;
+  }
+  .section__row {
+    flex-direction: column;
+  }
+
+  .row__item {
+    width: 100%;
+  }
+}

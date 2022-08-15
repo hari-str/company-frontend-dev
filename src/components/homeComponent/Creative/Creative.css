@@ -1,0 +1,146 @@
+.creative {
+  padding: 4rem 0;
+}
+.creative__container {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+.creative__row {
+  display: flex;
+  gap: 2rem;
+}
+
+.creative__content,
+.creative__img {
+  padding: 10px;
+  width: 50%;
+}
+
+.creative__skill {
+  margin-top: 3rem;
+}
+
+.creative__content h3 {
+  font-size: 38px;
+  margin-bottom: 16px;
+  color: #212121;
+  font-weight: 700;
+}
+
+.creative__content span {
+  color: #086ad8;
+}
+
+.skill__item {
+  margin-bottom: 1rem;
+  position: relative;
+}
+.skill__item h3 {
+  font-size: 16px;
+  font-weight: 600;
+  color: #212121;
+  margin-bottom: 1rem;
+}
+
+.skill__percentage {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.progress {
+  display: flex;
+  background-color: #e9ecef;
+  height: 6px;
+  border-radius: 5px;
+}
+
+.progress__bar1 {
+  background: linear-gradient(
+    90deg,
+    #bcf2f5,
+    #b0eaf7,
+    #a9e0f9,
+    #a7d6f9,
+    #abcbf6
+  );
+  width: 90%;
+  border-radius: 4px;
+}
+
+.progress__bar2 {
+  background: linear-gradient(
+    90deg,
+    #bcf2f5,
+    #b0eaf7,
+    #a9e0f9,
+    #a7d6f9,
+    #abcbf6
+  );
+  width: 80%;
+  border-radius: 4px;
+}
+
+.progress__bar3 {
+  background: linear-gradient(
+    90deg,
+    #bcf2f5,
+    #b0eaf7,
+    #a9e0f9,
+    #a7d6f9,
+    #abcbf6
+  );
+  width: 70%;
+  border-radius: 4px;
+}
+
+.progress__bar4 {
+  background: linear-gradient(
+    90deg,
+    #bcf2f5,
+    #b0eaf7,
+    #a9e0f9,
+    #a7d6f9,
+    #abcbf6
+  );
+  width: 75%;
+  border-radius: 4px;
+}
+
+.progress__bar5 {
+  background: linear-gradient(
+    90deg,
+    #bcf2f5,
+    #b0eaf7,
+    #a9e0f9,
+    #a7d6f9,
+    #abcbf6
+  );
+  width: 90%;
+  border-radius: 4px;
+}
+
+.creative__img {
+  background-image: url("https://luzon-react.envytheme.com/images/about/about.jpg");
+  background-size: cover;
+  background-position: 50%;
+  background-repeat: no-repeat;
+  height: 650px;
+}
+
+@media screen and (max-width: 768px) {
+  .creative__container {
+    margin: 0 2rem;
+  }
+  .creative__row {
+    flex-direction: column;
+  }
+
+  .creative__content,
+  .creative__img {
+    width: 100%;
+  }
+  .creative__content h3 {
+    font-size: 22px;
+  }
+}

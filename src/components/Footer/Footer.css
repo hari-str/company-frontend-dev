@@ -29,6 +29,11 @@
   font-size: 13px;
 }
 
+.footer__product ul li a:hover,
+.footer__service ul li a:hover {
+  color: #437bf5;
+}
+
 .footer__contact p {
   font-size: 13px;
   padding-bottom: 5px;
@@ -47,9 +52,9 @@
   text-align: center;
 }
 
-.icon {
+.links .icon {
   color: blue;
-  padding: 2px 8px;
+  padding: 2px 6.5px;
 }
 
 .footer__copy {
