@@ -5,6 +5,7 @@ import ServiceComp from "../homeComponent/Services/ServiceComp";
 import Feature from "../homeComponent/Feature/Feature";
 import Creative from "../homeComponent/Creative/Creative";
 import Footer from "../Footer/Footer";
+import DevelopmentArea from "../homeComponent/Development/DevelopmentArea";
 
 const Home = () => {
   return (
@@ -15,6 +16,7 @@ const Home = () => {
         <Feature />
         <Creative />
         <ServiceComp />
+        <DevelopmentArea />
       </div>
       <>
         <Footer />

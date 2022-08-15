@@ -1,0 +1,50 @@
+.contact__container {
+  background-image: url("https://luzon-react.envytheme.com/images/page-title/page-title-bg.jpg");
+  position: relative;
+  background-position: 50%;
+  background-size: cover;
+  z-index: 1;
+  background-repeat: no-repeat;
+  height: 450px;
+  background-attachment: fixed;
+}
+
+.contact__container::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  background: #000;
+  opacity: 0.77;
+}
+
+.contact__title {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: #fff;
+}
+
+.contact__title h3 {
+  font-size: 50px;
+}
+
+.contact__title ul {
+  margin-top: 1rem;
+}
+.contact__title ul li {
+  display: inline-block;
+  padding: 0 5px;
+}
+
+.contact__title a {
+  color: #fff;
+}
+
+.contact__title a:hover {
+  color: #086ad8;
+}

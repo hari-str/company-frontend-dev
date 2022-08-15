@@ -30,6 +30,7 @@
 
 .header__list {
   flex: 0.6;
+  position: relative;
 }
 
 .header__list > ul {
@@ -57,11 +58,81 @@
   color: #fff;
 }
 
+.header__list li:hover .dropdown__menu {
+  visibility: visible;
+  top: 100%;
+}
+
+.icon__down {
+  font-size: 12px;
+  padding: 0 5px;
+}
+.dropdown__menu {
+  background: #fff;
+  position: absolute;
+  border: none;
+  top: 80px;
+  left: 0;
+  width: 250px;
+  z-index: 99;
+  display: block;
+  visibility: hidden;
+  padding: 20px 0;
+  text-align: center;
+  transition: all 0.3s ease-in-out;
+}
+
+.dropdown__menu li {
+  padding: 10px 0;
+}
+.dropdown__menu li a {
+  font-size: 14px;
+  font-weight: 500;
+  color: #212121;
+}
+
+.dropdown__menu li a:hover {
+  color: #086ad8;
+}
+
+.nav__bar {
+  display: none;
+  font-size: 20px;
+}
+
 @media screen and (max-width: 767px) {
   .header__logo > img {
     width: 140px;
   }
   .header__list {
-    display: none;
+    position: absolute;
+    height: 100vh;
+    background-color: #fff;
+    width: 100%;
+    top: 70px;
+    left: -100%;
+    margin: 0;
+    text-align: center;
+  }
+
+  .header__list.active {
+    left: 0;
+    z-index: 1;
+    background-color: #f8f8f8;
+  }
+
+  .nav__bar {
+    display: block;
+    margin-right: 2rem;
+  }
+
+  .header__list > ul {
+    display: flex;
+    flex-direction: column;
+    display: block;
+  }
+
+  .header__list > ul > li {
+    padding: 1rem;
   }
 }

@@ -1,8 +1,13 @@
-import React from "react";
-import { NavLink } from "react-router-dom";
+import React, { useState } from "react";
+import { NavLink, Link } from "react-router-dom";
 import "./Header.css";
 
 const Header = () => {
+  const [icon, setIcon] = useState(false);
+
+  const handleClick = () => {
+    setIcon(!icon);
+  };
   return (
     <>
       <header>
@@ -16,13 +21,49 @@ const Header = () => {
                 />
               </NavLink>
             </div>
-            <div className="header__list container">
+            <div
+              className={
+                icon
+                  ? "header__list container active"
+                  : "header__list container"
+              }
+            >
               <ul>
                 <li>
                   <NavLink to="/"> Home </NavLink>
                 </li>
                 <li>
-                  <NavLink to="/product">Product</NavLink>
+                  <NavLink to="/product">
+                    Product
+                    <i class="fa-solid fa-angle-down icon__down"></i>
+                  </NavLink>
+                  <ul className="dropdown__menu">
+                    <li>
+                      <Link to="/contact">E-Commerce</Link>
+                    </li>
+                    <li>
+                      <Link to="/contact">Office ERM</Link>
+                    </li>
+                    <li>
+                      <Link to="/contact">Biometric Based HRM</Link>
+                    </li>
+                    <li>
+                      {" "}
+                      <Link to="/contact">Mini Banking</Link>
+                    </li>
+                    <li>
+                      <Link to="/contact">Travel ERP</Link>
+                    </li>
+                    <li>
+                      <Link to="/contact">POS On Billing</Link>
+                    </li>
+                    <li>
+                      <Link to="/contact">Gold Loan Management</Link>
+                    </li>
+                    <li>
+                      <Link to="/contact">Medical Billing</Link>
+                    </li>
+                  </ul>
                 </li>
                 <li>
                   <NavLink to="/service">Services</NavLink>
@@ -39,6 +80,13 @@ const Header = () => {
                   </NavLink>
                 </li>
               </ul>
+            </div>
+            <div className="nav__bar icon" onClick={handleClick}>
+              {icon ? (
+                <i class="fa-solid fa-xmark"></i>
+              ) : (
+                <i class="fa-solid fa-bars icon"></i>
+              )}
             </div>
           </div>
         </nav>

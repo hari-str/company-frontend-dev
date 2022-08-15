@@ -27,6 +27,11 @@
   font-weight: 700;
 }
 
+.creative__content p {
+  font-size: 14px;
+  color: #666;
+}
+
 .creative__content span {
   color: #086ad8;
 }
