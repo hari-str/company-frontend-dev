@@ -1,0 +1,46 @@
+.aboutcontent {
+  padding: 4rem 0;
+  font-family: "Catamaran", san serif;
+}
+
+.aboutcontent__container {
+  max-width: 1140px;
+  margin: auto;
+  text-align: center;
+}
+
+.aboutcontent__container h1 {
+  font-size: 40px;
+  margin-bottom: 1rem;
+}
+
+.content__we {
+  text-align: center;
+  padding: 4rem 0;
+  max-width: 1140px;
+  margin: auto;
+}
+.content__we h1 {
+  font-size: 40px;
+  font-weight: 600;
+}
+
+.content__we h3 {
+  font-size: 30px;
+  font-weight: 500;
+  margin-bottom: 1rem;
+}
+
+@media screen and (max-width: 768px) {
+  .aboutcontent__container {
+    margin: 0 1rem;
+  }
+
+  .aboutcontent__container h1 {
+    font-size: 30px;
+  }
+
+  .content__we h3 {
+    font-size: 25px;
+  }
+}

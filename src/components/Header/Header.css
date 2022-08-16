@@ -98,6 +98,7 @@
 .nav__bar {
   display: none;
   font-size: 20px;
+  cursor: pointer;
 }
 
 @media screen and (max-width: 767px) {
@@ -113,12 +114,13 @@
     left: -100%;
     margin: 0;
     text-align: center;
+    transition: all 0.4s ease;
   }
 
   .header__list.active {
     left: 0;
     z-index: 1;
-    background-color: #f8f8f8;
+    background-color: #fff;
   }
 
   .nav__bar {

@@ -1,0 +1,86 @@
+.careercontent {
+  padding: 4rem 0;
+}
+.careercontent__container {
+  max-width: 1140px;
+  margin: auto;
+  text-align: center;
+}
+
+.careercontent__container p {
+  font-size: 14px;
+}
+
+.careercontent__container h4 {
+  margin-top: 2rem;
+  font-weight: 500;
+}
+
+.carrercontent__img {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin: 3rem 0;
+}
+
+.img__item {
+  width: 20%;
+  height: 200px;
+}
+
+.img__item img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.career__skill {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+}
+
+.career__text,
+.career__form {
+  width: 100%;
+}
+
+.career__text ul li {
+  color: #086ad8;
+}
+
+.career__form form {
+  display: flex;
+  flex-direction: column;
+  margin-top: 2rem;
+}
+
+.career__form form input[type="text"],
+[type="email"],
+[type="file"] {
+  padding: 5px;
+  margin-bottom: 1rem;
+}
+
+.submit__btn {
+  padding: 10px;
+  background-color: #3895ff;
+  color: #fff;
+  border: none;
+  font-weight: 500;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+  .careercontent__container {
+    margin: 0 1rem;
+  }
+
+  .career__skill {
+    flex-direction: column;
+    row-gap: 2rem;
+  }
+}

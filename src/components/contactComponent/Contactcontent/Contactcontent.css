@@ -1,0 +1,50 @@
+.contactcontent {
+  padding: 4rem 0;
+  font-family: "Catamaran", san serif;
+}
+.contactcontent__container {
+  max-width: 1140px;
+  margin: auto;
+}
+
+.contactcontent__row {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.rowcontent__item {
+  width: 30%;
+  text-align: center;
+  box-shadow: 0 0 11px 3px rgb(0 0 0 / 5%);
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 5px;
+}
+
+.icon1__shape {
+  line-height: 50px;
+  width: 50px;
+  height: 50px;
+  border: 1px dashed #086ad8;
+  border-radius: 50%;
+  font-size: 20px;
+  display: inline-block;
+  color: #086ad8;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  margin-bottom: 25px;
+}
+
+@media screen and (max-width: 768px) {
+  .contactcontent__container {
+    margin: 0 2rem;
+  }
+  .contactcontent__row {
+    flex-direction: column;
+    row-gap: 2rem;
+  }
+
+  .rowcontent__item {
+    width: 100%;
+  }
+}

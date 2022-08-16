@@ -7,6 +7,7 @@ import Services from "./components/Pages/Services";
 import About from "./components/Pages/About";
 import Career from "./components/Pages/Career";
 import Contact from "./components/Pages/Contact";
+import Notfound from "./components/Pages/Notfound";
 import "./App.css";
 
 function App() {
@@ -15,11 +16,12 @@ function App() {
       <Header />
       <Routes>
         <Route path="/" element={<Home />} exact></Route>
-        <Route path="/product" element={<Product />}></Route>
-        <Route path="/service" element={<Services />}></Route>
-        <Route path="/about" element={<About />}></Route>
-        <Route path="/career" element={<Career />}></Route>
-        <Route path="/contact" element={<Contact />}></Route>
+        <Route path="/product" element={<Product />} exact></Route>
+        <Route path="/service" element={<Services />} exact></Route>
+        <Route path="/about" element={<About />} exact></Route>
+        <Route path="/career" element={<Career />} exact></Route>
+        <Route path="/contact" element={<Contact />} exact></Route>
+        <Route path="*" element={<Notfound />}></Route>
       </Routes>
     </div>
   );

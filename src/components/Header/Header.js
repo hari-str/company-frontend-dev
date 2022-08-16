@@ -8,6 +8,9 @@ const Header = () => {
   const handleClick = () => {
     setIcon(!icon);
   };
+  const closeSideDrawer = () => {
+    setIcon(false);
+  };
   return (
     <>
       <header>
@@ -30,10 +33,13 @@ const Header = () => {
             >
               <ul>
                 <li>
-                  <NavLink to="/"> Home </NavLink>
+                  <NavLink to="/" onClick={closeSideDrawer}>
+                    {" "}
+                    Home{" "}
+                  </NavLink>
                 </li>
                 <li>
-                  <NavLink to="/product">
+                  <NavLink to="" onClick={closeSideDrawer}>
                     Product
                     <i class="fa-solid fa-angle-down icon__down"></i>
                   </NavLink>
@@ -66,16 +72,26 @@ const Header = () => {
                   </ul>
                 </li>
                 <li>
-                  <NavLink to="/service">Services</NavLink>
+                  <NavLink to="" onClick={closeSideDrawer}>
+                    Services
+                  </NavLink>
                 </li>
                 <li>
-                  <NavLink to="/about">About</NavLink>
+                  <NavLink to="/about" onClick={closeSideDrawer}>
+                    About
+                  </NavLink>
                 </li>
                 <li>
-                  <NavLink to="/career">Career</NavLink>
+                  <NavLink to="/career" onClick={closeSideDrawer}>
+                    Career
+                  </NavLink>
                 </li>
                 <li>
-                  <NavLink to="/contact" className="active__link">
+                  <NavLink
+                    to="/contact"
+                    className="active__link"
+                    onClick={closeSideDrawer}
+                  >
                     Contact
                   </NavLink>
                 </li>

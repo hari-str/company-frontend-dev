@@ -17,12 +17,6 @@ const Aboutpage = () => {
             </ul>
           </div>
         </div>
-        <p>
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Incidunt
-          ratione facere eos! Harum, distinctio consequuntur, adipisci
-          praesentium totam tempora sed reiciendis veniam quisquam, culpa
-          laboriosam soluta animi magni. Doloremque, perferendis?
-        </p>
       </section>
     </>
   );
