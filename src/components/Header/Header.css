@@ -3,6 +3,12 @@
   margin: 0 30px;
 }
 
+.btn__flex {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
 /* Normal */
 
 .header {
@@ -36,6 +42,7 @@
 .header__list > ul {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 .header__list > ul > li > a {
@@ -61,6 +68,8 @@
 .header__list li:hover .dropdown__menu {
   visibility: visible;
   top: 100%;
+  /* margin-top: 0; */
+  opacity: 1;
 }
 
 .icon__down {
@@ -72,14 +81,16 @@
   position: absolute;
   border: none;
   top: 80px;
-  left: 0;
+  left: 0px;
   width: 250px;
   z-index: 99;
+  opacity: 0;
   display: block;
   visibility: hidden;
-  padding: 20px 0;
-  text-align: center;
+  padding: 20px;
+  margin-top: 18px;
   transition: all 0.3s ease-in-out;
+  box-shadow: 0 0 15px 0 rgb(0 0 0 / 10%);
 }
 
 .dropdown__menu li {
@@ -113,8 +124,8 @@
     top: 70px;
     left: -100%;
     margin: 0;
-    text-align: center;
     transition: all 0.4s ease;
+    overflow: scroll;
   }
 
   .header__list.active {

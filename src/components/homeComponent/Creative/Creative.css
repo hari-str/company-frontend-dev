@@ -145,7 +145,15 @@
   .creative__img {
     width: 100%;
   }
+  .creative__img {
+    height: 300px;
+  }
   .creative__content h3 {
     font-size: 22px;
+  }
+
+  .skill__item h3,
+  .skill__percentage {
+    font-size: 14px;
   }
 }

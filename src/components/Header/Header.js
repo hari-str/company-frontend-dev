@@ -34,15 +34,14 @@ const Header = () => {
               <ul>
                 <li>
                   <NavLink to="/" onClick={closeSideDrawer}>
-                    {" "}
-                    Home{" "}
+                    Home
                   </NavLink>
                 </li>
-                <li>
+                <li className="btn__flex">
                   <NavLink to="" onClick={closeSideDrawer}>
                     Product
-                    <i class="fa-solid fa-angle-down icon__down"></i>
                   </NavLink>
+                  <i class="fa-solid fa-angle-down icon__down"></i>
                   <ul className="dropdown__menu">
                     <li>
                       <Link to="/contact">E-Commerce</Link>
@@ -71,10 +70,41 @@ const Header = () => {
                     </li>
                   </ul>
                 </li>
-                <li>
+                <li className="drop__down btn__flex">
                   <NavLink to="" onClick={closeSideDrawer}>
                     Services
                   </NavLink>
+                  <i class="fa-solid fa-angle-down icon__down"></i>
+                  <ul className="dropdown__menu">
+                    <li>
+                      <Link to="/contact">Customized Web</Link>
+                    </li>
+                    <li>
+                      <Link to="/contact">Website Design And Development</Link>
+                    </li>
+                    <li>
+                      <Link to="/contact">Web Hosting</Link>
+                    </li>
+                    <li>
+                      {" "}
+                      <Link to="/contact">Android Application Development</Link>
+                    </li>
+                    <li>
+                      <Link to="/contact">IOS Application Development</Link>
+                    </li>
+                    <li>
+                      <Link to="/contact">Bulk SMS</Link>
+                    </li>
+                    <li>
+                      <Link to="/contact">CRM</Link>
+                    </li>
+                    <li>
+                      <Link to="/contact">ERP</Link>
+                    </li>
+                    <li>
+                      <Link to="/contact">HRM</Link>
+                    </li>
+                  </ul>
                 </li>
                 <li>
                   <NavLink to="/about" onClick={closeSideDrawer}>

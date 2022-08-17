@@ -63,6 +63,9 @@
 }
 
 @media screen and (max-width: 768px) {
+  .feature__container {
+    margin: 0 1rem;
+  }
   .feature__row {
     flex-direction: column;
   }

@@ -14,8 +14,7 @@ const Slider = () => {
               <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos,
                 nemo recusandae, veritatis magnam veniam unde vel commodi
-                voluptatibus voluptates iure beatae ipsam pariatur. Eveniet
-                eligendi sit odio. Veniam, aliquam eaque.
+                voluptatibus voluptates iure beatae ipsam pariatur.
               </p>
               <div className="banner__btn">
                 <Link to="/contact" className="default__btn">
