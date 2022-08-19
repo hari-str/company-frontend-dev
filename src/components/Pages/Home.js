@@ -4,7 +4,6 @@ import Slider from "../homeComponent/Slider/Slider";
 import ServiceComp from "../homeComponent/Services/ServiceComp";
 import Feature from "../homeComponent/Feature/Feature";
 import Creative from "../homeComponent/Creative/Creative";
-import Footer from "../Footer/Footer";
 import DevelopmentArea from "../homeComponent/Development/DevelopmentArea";
 
 const Home = () => {
@@ -18,9 +17,6 @@ const Home = () => {
         <ServiceComp />
         <DevelopmentArea />
       </div>
-      <>
-        <Footer />
-      </>
     </>
   );
 };

@@ -35,6 +35,12 @@
   margin-bottom: 25px;
 }
 
+.mapouter {
+  margin: 4rem 0;
+}
+.gmap_canvas iframe {
+  width: 100%;
+}
 @media screen and (max-width: 768px) {
   .contactcontent__container {
     margin: 0 2rem;

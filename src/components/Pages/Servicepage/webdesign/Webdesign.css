@@ -1,0 +1,73 @@
+.webdesign__container {
+  background-image: url("https://www.kitkatsoftwaretechnologies.com/images/img38.jpg");
+  position: relative;
+  background-position: 50%;
+  background-size: cover;
+  z-index: 1;
+  background-repeat: no-repeat;
+  height: 450px;
+  /* background-attachment: fixed; */
+}
+
+.webdesign__container::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  background: #000;
+  opacity: 0.77;
+}
+
+.webdesign__title {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: #fff;
+}
+
+.webdesign__title h3 {
+  font-size: 50px;
+}
+
+.webdesign__title ul {
+  margin-top: 1rem;
+}
+.webdesign__title ul li {
+  display: inline-block;
+  padding: 0 5px;
+}
+
+.webdesign__title a {
+  color: #fff;
+}
+
+.webdesign__title a:hover {
+  color: #086ad8;
+}
+
+.webdesign__content {
+  max-width: 1140px;
+  margin: auto;
+  text-align: center;
+  padding: 4rem 0;
+}
+
+.webdesign__content h1 {
+  font-size: 40px;
+  font-weight: 600;
+  margin-bottom: 2rem;
+}
+
+.webdesign__content p {
+  text-align: justify;
+  text-indent: 5%;
+  line-height: 2;
+}
+
+.webdesign__content p p {
+  margin-top: 2rem;
+}

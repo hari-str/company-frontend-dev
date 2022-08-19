@@ -1,0 +1,73 @@
+.customize__container {
+  background-image: url("https://www.kitkatsoftwaretechnologies.com/images/cs.jpg");
+  position: relative;
+  background-position: 50%;
+  background-size: cover;
+  z-index: 1;
+  background-repeat: no-repeat;
+  height: 450px;
+  /* background-attachment: fixed; */
+}
+
+.customize__container::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  background: #000;
+  opacity: 0.77;
+}
+
+.customize__title {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: #fff;
+}
+
+.customize__title h3 {
+  font-size: 50px;
+}
+
+.customize__title ul {
+  margin-top: 1rem;
+}
+.customize__title ul li {
+  display: inline-block;
+  padding: 0 5px;
+}
+
+.customize__title a {
+  color: #fff;
+}
+
+.customize__title a:hover {
+  color: #086ad8;
+}
+
+.customize__content {
+  max-width: 1140px;
+  margin: auto;
+  text-align: center;
+  padding: 4rem 0;
+}
+
+.customize__content h1 {
+  font-size: 40px;
+  font-weight: 600;
+  margin-bottom: 2rem;
+}
+
+.customize__content p {
+  text-align: justify;
+  text-indent: 5%;
+  line-height: 2;
+}
+
+.customize__content p p {
+  margin-top: 2rem;
+}

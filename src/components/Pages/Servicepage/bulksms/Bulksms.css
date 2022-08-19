@@ -1,0 +1,83 @@
+.bulksms__container {
+  background-image: url("https://s.itl.cat/pngfile/s/202-2022272_mobile-internet.png");
+  position: relative;
+  background-position: 50%;
+  background-size: cover;
+  z-index: 1;
+  background-repeat: no-repeat;
+  height: 450px;
+  /* background-attachment: fixed; */
+}
+
+.bulksms__container::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  background: #000;
+  opacity: 0.77;
+}
+
+.bulksms__title {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: #fff;
+}
+
+.bulksms__title h3 {
+  font-size: 50px;
+}
+
+.bulksms__title ul {
+  margin-top: 1rem;
+}
+.bulksms__title ul li {
+  display: inline-block;
+  padding: 0 5px;
+}
+
+.bulksms__title a {
+  color: #fff;
+}
+
+.bulksms__title a:hover {
+  color: #086ad8;
+}
+
+.bulksms__content {
+  max-width: 1140px;
+  margin: auto;
+  text-align: center;
+  padding: 4rem 0;
+}
+
+.bulksms__content h1 {
+  font-size: 40px;
+  font-weight: 600;
+  margin-bottom: 2rem;
+}
+
+.bulksms__content p {
+  text-align: justify;
+  text-indent: 5%;
+  line-height: 2;
+  padding-bottom: 2rem;
+}
+
+.bulksms__content p p {
+  margin-top: 2rem;
+}
+
+.android__img img {
+  width: 100%;
+}
+
+.android__img h3 {
+  margin-bottom: 2rem;
+  text-align: left;
+}

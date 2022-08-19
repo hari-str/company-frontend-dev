@@ -44,7 +44,7 @@ const Header = () => {
                   <i class="fa-solid fa-angle-down icon__down"></i>
                   <ul className="dropdown__menu">
                     <li>
-                      <Link to="/contact">E-Commerce</Link>
+                      <Link to="/ecommerce">E-Commerce</Link>
                     </li>
                     <li>
                       <Link to="/contact">Office ERM</Link>
@@ -77,23 +77,26 @@ const Header = () => {
                   <i class="fa-solid fa-angle-down icon__down"></i>
                   <ul className="dropdown__menu">
                     <li>
-                      <Link to="/contact">Customized Web</Link>
+                      <Link to="/cutomize">Customized Web</Link>
                     </li>
                     <li>
-                      <Link to="/contact">Website Design And Development</Link>
+                      <Link to="/webdesign">
+                        Website Design And Development
+                      </Link>
                     </li>
                     <li>
-                      <Link to="/contact">Web Hosting</Link>
+                      <Link to="/webhosting">Web Hosting</Link>
                     </li>
                     <li>
-                      {" "}
-                      <Link to="/contact">Android Application Development</Link>
+                      <Link to="/androidapp">
+                        Android Application Development
+                      </Link>
                     </li>
                     <li>
-                      <Link to="/contact">IOS Application Development</Link>
+                      <Link to="/iosapp">IOS Application Development</Link>
                     </li>
                     <li>
-                      <Link to="/contact">Bulk SMS</Link>
+                      <Link to="/bulksms">Bulk SMS</Link>
                     </li>
                     <li>
                       <Link to="/contact">CRM</Link>
