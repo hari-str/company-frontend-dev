@@ -8,12 +8,12 @@ const Androidapp = () => {
       <section>
         <div className="androidapp__container">
           <div className="androidapp__title">
-            <h3>Android & IOS</h3>
+            <h3>Android App</h3>
             <ul>
               <li>
                 <Link to="/">Home </Link>
               </li>
-              /<li>Android App Development</li>
+              /<li>Android App </li>
             </ul>
           </div>
         </div>
