@@ -99,13 +99,13 @@ const Header = () => {
                       <Link to="/bulksms">Bulk SMS</Link>
                     </li>
                     <li>
-                      <Link to="/contact">CRM</Link>
+                      <Link to="/crm">CRM</Link>
                     </li>
                     <li>
-                      <Link to="/contact">ERP</Link>
+                      <Link to="/erp">ERP</Link>
                     </li>
                     <li>
-                      <Link to="/contact">HRM</Link>
+                      <Link to="/hrm">HRM</Link>
                     </li>
                   </ul>
                 </li>

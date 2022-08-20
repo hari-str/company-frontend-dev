@@ -40,7 +40,7 @@ const Iosappdev = () => {
           <div className="android__img">
             <img
               className="android__img"
-              src="https://www.kitkatsoftwaretechnologies.com/images/img18.jpg"
+              src="https://www.kitkatsoftwaretechnologies.com/images/img21.jpg"
               alt="img"
             />
 

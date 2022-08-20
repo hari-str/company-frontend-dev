@@ -14,6 +14,9 @@ import Webhosting from "./components/Pages/Servicepage/webhosting/Webhosting";
 import Androidapp from "./components/Pages/Servicepage/androidapp/Androidapp";
 import Iosappdev from "./components/Pages/Servicepage/iosapp/Iosappdev";
 import Bulksms from "./components/Pages/Servicepage/bulksms/Bulksms";
+import Crmdev from "./components/Pages/Servicepage/crm/Crmdev";
+import Erpdev from "./components/Pages/Servicepage/erp/Erpdev";
+import Hrmdev from "./components/Pages/Servicepage/hrm/Hrmdev";
 import Notfound from "./components/Pages/Notfound";
 import Footer from "./components/Footer/Footer";
 import "./App.css";
@@ -36,6 +39,9 @@ function App() {
         <Route path="/androidapp" element={<Androidapp />}></Route>
         <Route path="/iosapp" element={<Iosappdev />}></Route>
         <Route path="/bulksms" element={<Bulksms />}></Route>
+        <Route path="/crm" element={<Crmdev />}></Route>
+        <Route path="/erp" element={<Erpdev />}></Route>
+        <Route path="/hrm" element={<Hrmdev />}></Route>
         <Route path="*" element={<Notfound />}></Route>
       </Routes>
       <Footer />

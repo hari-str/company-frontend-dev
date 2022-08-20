@@ -34,13 +34,18 @@
   color: #086ad8;
 }
 
+.develop__head p {
+  margin-bottom: 1rem;
+}
+
 .develop__item {
   display: flex;
+  column-gap: 10px;
+  margin-bottom: 8px;
 }
 
 .item__title h3 {
-  font-size: 22px;
-  margin-bottom: 8px;
+  font-size: 20px;
   color: #212121;
 }
 
@@ -50,6 +55,11 @@
   font-weight: 400;
   font-family: Open Sans, sans-serif;
   font-size: 15px;
+}
+
+.item__icon i {
+  font-size: 16px;
+  padding: 5px;
 }
 
 @media screen and (max-width: 768px) {

@@ -28,7 +28,9 @@ const DevelopmentArea = () => {
 
               <div className="develop__section">
                 <div className="develop__item">
-                  <div className="item__icon">icon</div>
+                  <div className="item__icon">
+                    <i class="fa-solid fa-angle-right"></i>
+                  </div>
                   <div className="item__title">
                     <h3>UI/UX</h3>
                     <p>
@@ -39,7 +41,9 @@ const DevelopmentArea = () => {
                   </div>
                 </div>
                 <div className="develop__item">
-                  <div className="item__icon">icon</div>
+                  <div className="item__icon">
+                    <i class="fa-solid fa-angle-right"></i>
+                  </div>
                   <div className="item__title">
                     <h3>Planning</h3>
                     <p>
@@ -50,7 +54,9 @@ const DevelopmentArea = () => {
                   </div>
                 </div>
                 <div className="develop__item">
-                  <div className="item__icon">icon</div>
+                  <div className="item__icon">
+                    <i class="fa-solid fa-angle-right"></i>
+                  </div>
                   <div className="item__title">
                     <h3>Develpoment</h3>
                     <p>
@@ -61,7 +67,9 @@ const DevelopmentArea = () => {
                   </div>
                 </div>
                 <div className="develop__item">
-                  <div className="item__icon">icon</div>
+                  <div className="item__icon">
+                    <i class="fa-solid fa-angle-right"></i>
+                  </div>
                   <div className="item__title">
                     <h3>Responsive</h3>
                     <p>
