@@ -71,3 +71,30 @@
 .customize__content p p {
   margin-top: 2rem;
 }
+
+.custom__img img {
+  width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+  .customize__content {
+    margin: 0 1rem;
+  }
+
+  .customize__title h3 {
+    font-size: 30px;
+  }
+
+  .customize__title a,
+  li {
+    font-size: 14px;
+  }
+
+  .customize__content h1 {
+    font-size: 22px;
+  }
+
+  .customize__content p {
+    font-size: 14px;
+  }
+}

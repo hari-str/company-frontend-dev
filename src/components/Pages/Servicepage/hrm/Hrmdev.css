@@ -92,3 +92,24 @@
   list-style-type: disc;
   line-height: 2;
 }
+
+@media screen and (max-width: 768px) {
+  .hrmdev__content {
+    margin: 0 1rem;
+  }
+  .hrmdev__title h3 {
+    font-size: 30px;
+  }
+
+  .hrmdev__content h1 {
+    font-size: 22px;
+    margin-bottom: 1.5rem;
+  }
+  .hrmdev__content p {
+    font-size: 14px;
+  }
+
+  .android__img h3 {
+    margin-bottom: 1rem;
+  }
+}

@@ -47,7 +47,7 @@ const Webdesign = () => {
             </p>
           </p>
 
-          <div>
+          <div className="web__img">
             <img
               src="https://www.kitkatsoftwaretechnologies.com/images/img14.jpg"
               alt="img"

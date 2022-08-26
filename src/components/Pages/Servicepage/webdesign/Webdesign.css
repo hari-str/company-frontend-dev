@@ -71,3 +71,30 @@
 .webdesign__content p p {
   margin-top: 2rem;
 }
+
+.web__img img {
+  width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+  .webdesign__content {
+    margin: 0 1rem;
+  }
+
+  .webdesign__title h3 {
+    font-size: 30px;
+  }
+
+  .webdesign__title li,
+  a {
+    font-size: 14px;
+  }
+
+  .webdesign__content h1 {
+    font-size: 22px;
+  }
+
+  .webdesign__content p {
+    font-size: 14px;
+  }
+}

@@ -71,3 +71,26 @@
 .webhosting__content p p {
   margin-top: 2rem;
 }
+
+.webhost__img img {
+  width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+  .webhosting__content {
+    margin: 0 1rem;
+  }
+  .webhosting__title h3 {
+    font-size: 30px;
+  }
+
+  .webhosting__title li,
+  a,
+  .webhosting__content p {
+    font-size: 14px;
+  }
+
+  .webhosting__content h1 {
+    font-size: 22px;
+  }
+}

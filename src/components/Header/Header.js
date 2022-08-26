@@ -38,74 +38,99 @@ const Header = () => {
                   </NavLink>
                 </li>
                 <li className="btn__flex">
-                  <NavLink to="" onClick={closeSideDrawer}>
-                    Product
-                  </NavLink>
+                  <NavLink to="">Product</NavLink>
                   <i class="fa-solid fa-angle-down icon__down"></i>
                   <ul className="dropdown__menu">
                     <li>
-                      <Link to="/ecommerce">E-Commerce</Link>
+                      <Link to="/ecommerce" onClick={closeSideDrawer}>
+                        E-Commerce
+                      </Link>
                     </li>
                     <li>
-                      <Link to="/contact">Office ERM</Link>
+                      <Link to="/officecrm" onClick={closeSideDrawer}>
+                        Office ERM
+                      </Link>
                     </li>
                     <li>
-                      <Link to="/contact">Biometric Based HRM</Link>
+                      <Link to="/biohrm" onClick={closeSideDrawer}>
+                        Biometric Based HRM
+                      </Link>
                     </li>
                     <li>
-                      {" "}
-                      <Link to="/contact">Mini Banking</Link>
+                      <Link to="/minibank" onClick={closeSideDrawer}>
+                        Mini Banking
+                      </Link>
                     </li>
                     <li>
-                      <Link to="/contact">Travel ERP</Link>
+                      <Link to="/travelerp" onClick={closeSideDrawer}>
+                        Travel ERP
+                      </Link>
                     </li>
                     <li>
-                      <Link to="/contact">POS On Billing</Link>
+                      <Link to="/posbill" onClick={closeSideDrawer}>
+                        POS On Billing
+                      </Link>
                     </li>
                     <li>
-                      <Link to="/contact">Gold Loan Management</Link>
+                      <Link to="/goldloan" onClick={closeSideDrawer}>
+                        Gold Loan Management
+                      </Link>
                     </li>
                     <li>
-                      <Link to="/contact">Medical Billing</Link>
+                      <Link to="/medibill" onClick={closeSideDrawer}>
+                        Medical Billing
+                      </Link>
                     </li>
                   </ul>
                 </li>
                 <li className="drop__down btn__flex">
-                  <NavLink to="" onClick={closeSideDrawer}>
-                    Services
-                  </NavLink>
+                  <NavLink to="">Services</NavLink>
                   <i class="fa-solid fa-angle-down icon__down"></i>
                   <ul className="dropdown__menu">
                     <li>
-                      <Link to="/cutomize">Customized Web</Link>
+                      <Link to="/cutomize" onClick={closeSideDrawer}>
+                        Customized Web
+                      </Link>
                     </li>
                     <li>
-                      <Link to="/webdesign">
+                      <Link to="/webdesign" onClick={closeSideDrawer}>
                         Website Design And Development
                       </Link>
                     </li>
                     <li>
-                      <Link to="/webhosting">Web Hosting</Link>
+                      <Link to="/webhosting" onClick={closeSideDrawer}>
+                        Web Hosting
+                      </Link>
                     </li>
                     <li>
-                      <Link to="/androidapp">
+                      <Link to="/androidapp" onClick={closeSideDrawer}>
                         Android Application Development
                       </Link>
                     </li>
                     <li>
-                      <Link to="/iosapp">IOS Application Development</Link>
+                      <Link to="/iosapp" onClick={closeSideDrawer}>
+                        IOS Application Development
+                      </Link>
                     </li>
                     <li>
-                      <Link to="/bulksms">Bulk SMS</Link>
+                      <Link to="/bulksms" onClick={closeSideDrawer}>
+                        Bulk SMS
+                      </Link>
                     </li>
                     <li>
-                      <Link to="/crm">CRM</Link>
+                      <Link to="/crm" onClick={closeSideDrawer}>
+                        CRM
+                      </Link>
                     </li>
                     <li>
-                      <Link to="/erp">ERP</Link>
+                      <Link to="/erp" onClick={closeSideDrawer}>
+                        ERP
+                      </Link>
                     </li>
                     <li>
-                      <Link to="/hrm">HRM</Link>
+                      <Link to="/hrm" onClick={closeSideDrawer}>
+                        HRM
+                      </Link>
                     </li>
                   </ul>
                 </li>

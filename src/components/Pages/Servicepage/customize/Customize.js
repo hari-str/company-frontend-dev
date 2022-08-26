@@ -47,7 +47,7 @@ const customize = () => {
             </p>
           </p>
 
-          <div>
+          <div className="custom__img">
             <img
               src="https://www.kitkatsoftwaretechnologies.com/images/img9.jpg"
               alt="img"

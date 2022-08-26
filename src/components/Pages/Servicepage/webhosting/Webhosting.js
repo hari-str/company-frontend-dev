@@ -50,7 +50,7 @@ const Webhosting = () => {
             </p>
           </p>
 
-          <div>
+          <div className="webhost__img">
             <img
               src="https://www.kitkatsoftwaretechnologies.com/images/img16.jpg"
               alt="img"

@@ -1,0 +1,150 @@
+.pos__container {
+  background-image: url("https://www.kitkatsoftwaretechnologies.com/images/billing.jpg");
+  position: relative;
+  background-position: 50%;
+  background-size: cover;
+  z-index: 1;
+  background-repeat: no-repeat;
+  height: 450px;
+  /* background-attachment: fixed; */
+}
+
+.pos__container::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  background: #000;
+  opacity: 0.77;
+}
+
+.pos__title {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: #fff;
+}
+
+.pos__title h3 {
+  font-size: 50px;
+}
+
+.pos__title ul {
+  margin-top: 1rem;
+}
+.pos__title ul li {
+  display: inline-block;
+  padding: 0 5px;
+}
+
+.pos__title a {
+  color: #fff;
+}
+
+.pos__title a:hover {
+  color: #086ad8;
+}
+.pos-details {
+  width: 50%;
+  height: auto;
+  padding-bottom: 20px;
+}
+
+.pos-details h1 {
+  font-size: 30px;
+}
+
+.pos-details p {
+  width: 95%;
+  margin-left: auto;
+  margin-right: auto;
+  height: auto;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  font-family: "EB Garamond", serif;
+  font-size: 20px;
+  text-indent: 30px;
+  text-align: justify;
+}
+
+.pos-img {
+  width: 45%;
+  margin-right: 5%;
+  height: 100%;
+}
+
+.pos-img img {
+  height: 50%;
+  width: 100%;
+}
+
+.pos_lists {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  height: auto;
+}
+
+.pos_cont {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  height: auto;
+  display: flex;
+}
+
+.pos_p {
+  font-family: "EB Garamond", serif;
+}
+
+.pos_title {
+  text-align: center;
+  font-family: "EB Garamond", serif;
+}
+
+.cont_para_style {
+  width: 95%;
+  margin-left: auto;
+  margin-right: auto;
+  height: auto;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  font-family: "EB Garamond", serif;
+  font-size: 20px;
+  text-indent: 30px;
+  text-align: justify;
+}
+
+.img_prod {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  height: 400px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+
+/* mediaquery */
+@media screen and (max-width: 960px) {
+  .pos-banner h1 {
+    color: #fff;
+    font-size: 50px;
+    margin-left: 20px;
+  }
+
+  .pos_cont {
+    width: 90%;
+  }
+
+  .img_prod {
+    width: 100%;
+  }
+}

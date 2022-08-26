@@ -1,0 +1,163 @@
+.travel__container {
+  background-image: url("https://www.kitkatsoftwaretechnologies.com/images/img4.jpg");
+  position: relative;
+  background-position: 50%;
+  background-size: cover;
+  z-index: 1;
+  background-repeat: no-repeat;
+  height: 450px;
+  /* background-attachment: fixed; */
+}
+
+.travel__container::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  background: #000;
+  opacity: 0.77;
+}
+
+.travel__title {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: #fff;
+}
+
+.travel__title h3 {
+  font-size: 50px;
+}
+
+.travel__title ul {
+  margin-top: 1rem;
+}
+.travel__title ul li {
+  display: inline-block;
+  padding: 0 5px;
+}
+
+.travel__title a {
+  color: #fff;
+}
+
+.travel__title a:hover {
+  color: #086ad8;
+}
+/* .travel-banner {
+  background: url("https://res.cloudinary.com/denokpulg/image/upload/v1660748019/Bg_Gold_n22c3g.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 70vh;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+
+.travel-banner h1 {
+  color: #fff;
+  font-size: 120px;
+  margin-left: 20px;
+
+} */
+
+.travel-details {
+  width: 50%;
+  height: auto;
+  padding-bottom: 20px;
+}
+
+.travel-details h1 {
+  font-size: 30px;
+}
+
+.travel-details p {
+  width: 95%;
+  margin-left: auto;
+  margin-right: auto;
+  height: auto;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  font-family: "EB Garamond", serif;
+  font-size: 20px;
+  text-indent: 30px;
+  text-align: justify;
+}
+
+.travel-img {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  height: 300px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.travel_p ul {
+  list-style-image: url(https://www.kitkatsoftwaretechnologies.com/css/images/arrow_blue.png);
+  font-size: 18px;
+  margin: 10px;
+}
+
+.travel_lists {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  height: auto;
+}
+
+.travel_cont {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  height: auto;
+  display: flex;
+}
+
+.travel_p {
+  font-family: "EB Garamond", serif;
+}
+
+.travel_title {
+  text-align: center;
+  font-family: "EB Garamond", serif;
+}
+
+.cont_para_style {
+  width: 95%;
+  margin-left: auto;
+  margin-right: auto;
+  height: auto;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  font-family: "EB Garamond", serif;
+  font-size: 20px;
+  text-indent: 30px;
+  text-align: justify;
+}
+
+/* mediaquery */
+@media screen and (max-width: 960px) {
+  .travel-banner h1 {
+    color: #fff;
+    font-size: 50px;
+    margin-left: 20px;
+  }
+
+  .travel_cont {
+    width: 90%;
+  }
+
+  .travel-img {
+    width: 90%;
+  }
+}

@@ -1,0 +1,144 @@
+.ecom__container {
+  background-image: url("https://res.cloudinary.com/denokpulg/image/upload/v1660197726/eCommerce-Retail_gq6w1y.jpg");
+  position: relative;
+  background-position: 50%;
+  background-size: cover;
+  z-index: 1;
+  background-repeat: no-repeat;
+  height: 450px;
+  /* background-attachment: fixed; */
+}
+
+.ecom__container::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  background: #000;
+  opacity: 0.77;
+}
+
+.ecom__title {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: #fff;
+}
+
+.ecom__title h3 {
+  font-size: 50px;
+}
+
+.ecom__title ul {
+  margin-top: 1rem;
+}
+.ecom__title ul li {
+  display: inline-block;
+  padding: 0 5px;
+}
+
+.ecom__title a {
+  color: #fff;
+}
+
+.ecom__title a:hover {
+  color: #086ad8;
+}
+
+.ecom {
+  max-width: 1140px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  height: auto;
+  display: flex;
+}
+
+.ecom_details {
+  width: 50%;
+  height: auto;
+  padding-bottom: 20px;
+}
+
+.ecom_details h1 {
+  font-size: 30px;
+}
+
+.ecom_details p {
+  width: 95%;
+  margin-left: auto;
+  margin-right: auto;
+  height: auto;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  font-family: "EB Garamond", serif;
+  font-size: 20px;
+  text-indent: 30px;
+  text-align: justify;
+}
+
+.ecom_img {
+  width: 45%;
+  margin-right: 5%;
+  height: 100%;
+}
+
+.ecom_img img {
+  height: 50%;
+  width: 100%;
+}
+
+.noimg {
+  display: block;
+}
+
+.ecom_list {
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  height: auto;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  font-family: "EB Garamond", serif;
+  font-size: 20px;
+  text-indent: 30px;
+}
+
+.img1 {
+  display: none;
+}
+
+@media screen and (max-width: 960px) {
+  .ecom__title h3 {
+    font-size: 30px;
+  }
+  .img1 {
+    display: block;
+  }
+
+  .ecom {
+    flex-direction: column;
+  }
+
+  .ecom_img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .noimg {
+    display: none;
+  }
+
+  .ecom_details {
+    width: 100%;
+  }
+
+  .ecom_list {
+    width: 80%;
+  }
+}

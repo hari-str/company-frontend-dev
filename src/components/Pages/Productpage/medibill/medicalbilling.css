@@ -1,0 +1,141 @@
+.mb-section {
+  position: relative;
+  font-family: "Open Sans", san-serif;
+}
+
+.med__container {
+  background-image: url("https://www.kitkatsoftwaretechnologies.com/images/med_bill.jpg");
+  position: relative;
+  background-position: 50%;
+  background-size: cover;
+  z-index: 1;
+  background-repeat: no-repeat;
+  height: 450px;
+  /* background-attachment: fixed; */
+}
+
+.med__container::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  background: #000;
+  opacity: 0.77;
+}
+
+.med__title {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: #fff;
+}
+
+.med__title h3 {
+  font-size: 50px;
+}
+
+.med__title ul {
+  margin-top: 1rem;
+}
+.med__title ul li {
+  display: inline-block;
+  padding: 0 5px;
+}
+
+.med__title a {
+  color: #fff;
+}
+
+.med__title a:hover {
+  color: #086ad8;
+}
+/* .mb_banner h1 {
+  color: #fff;
+  font-size: 80px;
+  margin-left: 20px;
+  z-index: 10;
+}
+
+.mb_banner {
+  background: url("https://res.cloudinary.com/denokpulg/image/upload/v1660748420/MedicalBilling_sogoyd.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 70vh;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+} */
+
+/* .bg:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 1;
+  width: 100%;
+  height: 70vh;
+  background: rgb(18, 17, 17);
+  opacity: 0.6;
+} */
+
+.medical_lists {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  height: auto;
+}
+
+.medical_cont {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  height: auto;
+  display: flex;
+}
+
+.medical_title {
+  text-align: center;
+}
+
+.cont_para_style {
+  width: 95%;
+  margin-left: auto;
+  margin-right: auto;
+  height: auto;
+  padding-bottom: 20px;
+  padding-top: 20px;
+
+  font-size: 20px;
+  text-indent: 30px;
+  text-align: justify;
+}
+
+@media screen and (max-width: 960px) {
+  .side_img {
+    width: 100%;
+  }
+
+  .medical_cont {
+    width: 90%;
+  }
+
+  .title2 {
+    font-size: 20px;
+  }
+
+  .med_banner h1 {
+    font-size: 80px;
+  }
+}

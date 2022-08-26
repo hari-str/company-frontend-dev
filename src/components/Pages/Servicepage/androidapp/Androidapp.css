@@ -75,3 +75,19 @@
 .android__img img {
   width: 100%;
 }
+
+@media screen and (max-width: 768px) {
+  .androidapp__content {
+    margin: 0 1rem;
+  }
+  .androidapp__title h3 {
+    font-size: 30px;
+  }
+  .androidapp__content h1 {
+    font-size: 22px;
+  }
+
+  .androidapp__content p {
+    font-size: 14px;
+  }
+}

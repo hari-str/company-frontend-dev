@@ -23,8 +23,20 @@
   row-gap: 5px;
 }
 
+.footer__service ul {
+  display: flex;
+  flex-direction: column;
+  row-gap: 5px;
+}
+
+.footer__contact {
+  display: flex;
+  flex-direction: column;
+  row-gap: 5px;
+}
 .footer__product ul li a,
-.footer__service ul li a {
+.footer__service ul li a,
+.footer__contact p {
   color: #212121;
   font-size: 13px;
   font-weight: 500;
@@ -33,11 +45,6 @@
 .footer__product ul li a:hover,
 .footer__service ul li a:hover {
   color: #437bf5;
-}
-
-.footer__contact p {
-  font-size: 13px;
-  padding-bottom: 5px;
 }
 
 .links {
@@ -78,5 +85,6 @@
   }
   .footer__copy p {
     font-size: 12px;
+    padding: 20px 10px;
   }
 }

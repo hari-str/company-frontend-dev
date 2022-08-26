@@ -1,0 +1,151 @@
+.bbhrm__container {
+  background-image: url("https://res.cloudinary.com/denokpulg/image/upload/v1660716691/HUMAN-RESOURCE_v55yfb.jpg");
+  position: relative;
+  background-position: 50%;
+  background-size: cover;
+  z-index: 1;
+  background-repeat: no-repeat;
+  height: 450px;
+  /* background-attachment: fixed; */
+}
+
+.bbhrm__container::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  background: #000;
+  opacity: 0.77;
+}
+
+.bbhrm__title {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: #fff;
+}
+
+.bbhrm__title h3 {
+  font-size: 50px;
+}
+
+.bbhrm__title ul {
+  margin-top: 1rem;
+}
+.bbhrm__title ul li {
+  display: inline-block;
+  padding: 0 5px;
+}
+
+.bbhrm__title a {
+  color: #fff;
+}
+
+.bbhrm__title a:hover {
+  color: #086ad8;
+}
+
+.bbhrm-details {
+  width: 50%;
+  height: auto;
+  padding-bottom: 20px;
+}
+
+.bbhrm-details h1 {
+  font-size: 30px;
+}
+
+.bbhrm-details p {
+  width: 95%;
+  margin-left: auto;
+  margin-right: auto;
+  height: auto;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  font-family: "EB Garamond", serif;
+  font-size: 20px;
+  text-indent: 30px;
+  text-align: justify;
+}
+
+.bbhrm-img {
+  width: 45%;
+  margin-right: 5%;
+  height: 100%;
+}
+
+.bbhrm-img img {
+  height: 50%;
+  width: 100%;
+}
+
+.bbhrm_lists {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  height: auto;
+}
+
+.bbhrm_cont {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  height: auto;
+  display: flex;
+}
+
+.bbhrm_p {
+  font-family: "EB Garamond", serif;
+}
+
+.bbhrm_title {
+  text-align: center;
+  font-family: "EB Garamond", serif;
+}
+
+.cont_para_style {
+  width: 95%;
+  margin-left: auto;
+  margin-right: auto;
+  height: auto;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  font-family: "EB Garamond", serif;
+  font-size: 20px;
+  text-indent: 30px;
+  text-align: justify;
+}
+
+.img_prod {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  height: 400px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+
+/* mediaquery */
+@media screen and (max-width: 960px) {
+  .bbhrm-banner h1 {
+    color: #fff;
+    font-size: 50px;
+    margin-left: 20px;
+  }
+
+  .bbhrm_cont {
+    width: 90%;
+  }
+
+  .img_pro {
+    width: 100%;
+  }
+}

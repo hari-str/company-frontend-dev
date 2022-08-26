@@ -92,3 +92,20 @@
   list-style-type: disc;
   line-height: 2;
 }
+
+@media screen and (max-width: 768px) {
+  .crmdev__content {
+    margin: 0 1rem;
+  }
+  .crmdev__title h3 {
+    font-size: 30px;
+  }
+
+  .crmdev__content h1 {
+    font-size: 22px;
+  }
+
+  .crmdev__content p {
+    font-size: 14px;
+  }
+}

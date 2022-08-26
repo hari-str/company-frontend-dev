@@ -92,3 +92,18 @@
   list-style-type: disc;
   line-height: 2;
 }
+
+@media screen and (max-width: 768px) {
+  .erpdev__content {
+    margin: 0 1rem;
+  }
+  .erpdev__title h3 {
+    font-size: 30px;
+  }
+  .erpdev__content h1 {
+    font-size: 22px;
+  }
+  .erpdev__content p {
+    font-size: 14px;
+  }
+}
