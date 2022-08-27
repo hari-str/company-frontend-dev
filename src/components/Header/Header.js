@@ -4,6 +4,17 @@ import "./Header.css";
 
 const Header = () => {
   const [icon, setIcon] = useState(false);
+  const [navbar, setNav] = useState(false);
+
+  const changeBackground = () => {
+    if (window.scrollY >= 80) {
+      setNav(true);
+    } else {
+      setNav(false);
+    }
+  };
+
+  window.addEventListener("scroll", changeBackground);
 
   const handleClick = () => {
     setIcon(!icon);
@@ -11,10 +22,11 @@ const Header = () => {
   const closeSideDrawer = () => {
     setIcon(false);
   };
+
   return (
     <>
       <header>
-        <nav className="header">
+        <nav className={navbar ? "header_active" : "header"}>
           <div className="header__container">
             <div className="header__logo container">
               <NavLink to="/">
