@@ -16,6 +16,7 @@
   width: 100%;
   position: fixed;
   z-index: 2000;
+  color: #fff;
 }
 
 .header_active {
@@ -25,6 +26,19 @@
   position: fixed;
   width: 100%;
   z-index: 2000;
+  transition: all 0.4s linear;
+}
+
+.header .header__list a {
+  color: #fff;
+}
+
+.header .dropdown__menu li a {
+  color: #000;
+}
+
+.header_active .header__list a {
+  color: #000;
 }
 .header__container {
   display: flex;
@@ -57,7 +71,7 @@
   font-family: "Open Sans", sans-serif;
   font-size: 15px;
   font-weight: 600;
-  color: #212121;
+  /* color: #212121; */
   padding: 5px 10px;
   transition: 0.4s ease;
   border-radius: 70px;
@@ -135,11 +149,15 @@
     transition: all 0.4s ease;
     overflow: scroll;
   }
+  .header .header__list a {
+    color: #000;
+  }
 
   .header__list.active {
     left: 0;
     z-index: 1;
     background-color: #fff;
+    color: #000;
   }
 
   .nav__bar {

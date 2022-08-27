@@ -38,7 +38,7 @@
 }
 
 /* mobile screen */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .about__container {
     flex-direction: column;
   }
@@ -48,7 +48,7 @@
 }
 
 /* tab screen  */
-@media screen and (min-width: 768px) and (max-width: 1023px) {
+@media screen and (min-width: 767px) and (max-width: 1023px) {
   .about__img img {
     width: 430px;
   }

@@ -41,7 +41,7 @@
 .gmap_canvas iframe {
   width: 100%;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .contactcontent__container {
     margin: 0 2rem;
   }
@@ -52,5 +52,14 @@
 
   .rowcontent__item {
     width: 100%;
+    padding: 10px;
+  }
+  .rowcontent__item p {
+    font-size: 14px;
+  }
+
+  .rowcontent__item h2 {
+    font-size: 20px;
+    font-weight: 600;
   }
 }

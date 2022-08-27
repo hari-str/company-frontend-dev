@@ -62,7 +62,7 @@
   line-height: 1.6;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .feature__container {
     margin: 0 1rem;
   }
@@ -74,5 +74,10 @@
   }
   .feature__item {
     width: 100%;
+  }
+
+  .feature__item h3 {
+    font-size: 16px;
+    font-weight: 600;
   }
 }

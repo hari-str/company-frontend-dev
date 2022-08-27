@@ -62,7 +62,7 @@
   padding: 5px;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .develop__container {
     margin: 0 1rem;
   }
@@ -78,5 +78,9 @@
   .develop__head h3 {
     font-size: 23px;
     margin-top: 1rem;
+  }
+
+  .item__title h3 {
+    font-size: 18px;
   }
 }

@@ -53,3 +53,13 @@
   margin-left: auto;
   margin-right: auto;
 }
+
+@media screen and (max-width: 767px) {
+  .minibank__title h3 {
+    font-size: 30px;
+  }
+
+  .banking {
+    width: 92%;
+  }
+}

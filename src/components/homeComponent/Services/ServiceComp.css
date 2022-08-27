@@ -121,7 +121,9 @@
 .row__item a:hover {
   color: #086ad8;
 }
-@media screen and (max-width: 768px) {
+
+/* mobile */
+@media screen and (max-width: 767px) {
   .service__container {
     margin: 0 1rem;
   }
@@ -136,4 +138,13 @@
   .row__item {
     width: 100%;
   }
+
+  .row__item h3 {
+    font-size: 20px;
+  }
+  .row__item p {
+    font-size: 14px;
+  }
 }
+
+/* tab */

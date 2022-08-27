@@ -61,7 +61,7 @@
 .slider__animate img {
   max-width: 550px;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .slider__container {
     flex-direction: column;
     gap: 2rem;
@@ -91,6 +91,9 @@
     width: 300px;
   }
 
+  .default__btn {
+    padding: 10px 22px;
+  }
   /* .banner__btn {
     text-align: center;
   } */

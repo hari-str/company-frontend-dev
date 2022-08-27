@@ -110,6 +110,14 @@
 }
 
 @media screen and (max-width: 960px) {
+  .erpof__title h3 {
+    font-size: 30px;
+  }
+
+  .erpof_cont {
+    width: 100%;
+    margin: 0 1rem;
+  }
   .erpof_img {
     width: 100%;
     height: 100%;
@@ -129,9 +137,5 @@
 
   .erpof_cont {
     flex-direction: column;
-  }
-
-  .erpof_banner h1 {
-    font-size: 80px;
   }
 }

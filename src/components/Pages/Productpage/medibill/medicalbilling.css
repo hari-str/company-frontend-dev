@@ -53,38 +53,6 @@
 .med__title a:hover {
   color: #086ad8;
 }
-/* .mb_banner h1 {
-  color: #fff;
-  font-size: 80px;
-  margin-left: 20px;
-  z-index: 10;
-}
-
-.mb_banner {
-  background: url("https://res.cloudinary.com/denokpulg/image/upload/v1660748420/MedicalBilling_sogoyd.jpg");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  height: 70vh;
-  display: flex;
-  justify-content: left;
-  align-items: center;
-} */
-
-/* .bg:before {
-  content: "";
-  position: absolute;
-  left: 0;
-  top: 0;
-  z-index: 1;
-  width: 100%;
-  height: 70vh;
-  background: rgb(18, 17, 17);
-  opacity: 0.6;
-} */
 
 .medical_lists {
   width: 100%;
@@ -134,8 +102,7 @@
   .title2 {
     font-size: 20px;
   }
-
-  .med_banner h1 {
-    font-size: 80px;
+  .med__title h3 {
+    font-size: 30px;
   }
 }

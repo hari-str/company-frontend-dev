@@ -48,3 +48,9 @@
 .career__title a:hover {
   color: #086ad8;
 }
+
+@media screen and (max-width: 767px) {
+  .career__title h3 {
+    font-size: 30px;
+  }
+}

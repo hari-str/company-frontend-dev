@@ -74,9 +74,10 @@
   cursor: pointer;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .careercontent__container {
     margin: 0 1rem;
+    font-size: 14px;
   }
 
   .career__skill {
