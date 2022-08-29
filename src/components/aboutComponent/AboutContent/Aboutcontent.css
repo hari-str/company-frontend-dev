@@ -10,10 +10,13 @@
 }
 
 .aboutcontent__container h1 {
-  font-size: 40px;
+  font-size: 30px;
   margin-bottom: 1rem;
 }
 
+.aboutcontent__container p {
+  font-size: 16px;
+}
 .content__we {
   text-align: center;
   padding: 4rem 0;
@@ -21,12 +24,12 @@
   margin: auto;
 }
 .content__we h1 {
-  font-size: 40px;
+  font-size: 30px;
   font-weight: 600;
 }
 
 .content__we h3 {
-  font-size: 30px;
+  font-size: 26px;
   font-weight: 500;
   margin-bottom: 1rem;
 }
@@ -41,6 +44,6 @@
   }
 
   .content__we h3 {
-    font-size: 25px;
+    font-size: 22px;
   }
 }

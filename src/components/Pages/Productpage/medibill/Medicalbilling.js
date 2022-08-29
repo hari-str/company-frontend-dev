@@ -74,7 +74,7 @@ const Medicalbilling = () => {
             <h2 className="title2">
               Advantages Of Hospital Management Software
             </h2>
-            <ul style={{ FontSize: "18px", lineHeight: "24px" }}>
+            <ul style={{ FontSize: "16px", lineHeight: "24px" }}>
               <li>
                 <b>Easy access to patient’s data : </b>In patient’s care, their
                 medical data is really very important. As the Hospital software

@@ -84,7 +84,7 @@ const Travelerp = () => {
               />
             </div>
             <h2 class="title2">Advantages Of Travel ERP Software</h2>
-            <ul style={{ fontSize: "18px", lineHeight: "24px" }}>
+            <ul style={{ fontSize: "16px", lineHeight: "24px" }}>
               <li>
                 <b>Easy Configuration:</b> Growth is typically associated with
                 new business models driven by new and innovative products and

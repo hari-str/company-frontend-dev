@@ -64,7 +64,7 @@ const Pos = () => {
               />
             </div>
             <h2 className="title2">Needs of POS Billing</h2>
-            <ul style={{ fontSize: "18px", lineHeight: "24px" }}>
+            <ul style={{ fontSize: "16px", lineHeight: "24px" }}>
               <li>
                 Peak hour sales, festival season crowd needs no extra hands
                 &amp; efforts. Mobile app SellSmart, can help you bill on the

@@ -76,8 +76,7 @@
   height: auto;
   padding-bottom: 20px;
   padding-top: 20px;
-  font-family: "EB Garamond", serif;
-  font-size: 20px;
+  font-size: 16px;
   text-indent: 30px;
   text-align: justify;
 }
@@ -104,8 +103,8 @@
   height: auto;
   padding-bottom: 20px;
   padding-top: 20px;
-  font-family: "EB Garamond", serif;
-  font-size: 20px;
+  font-family: "Open Sans", serif;
+  font-size: 16px;
   text-indent: 30px;
 }
 

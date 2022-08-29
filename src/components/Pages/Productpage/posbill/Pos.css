@@ -65,8 +65,8 @@
   height: auto;
   padding-bottom: 20px;
   padding-top: 20px;
-  font-family: "EB Garamond", serif;
-  font-size: 20px;
+  font-family: "Open Sans", serif;
+  font-size: 16px;
   text-indent: 30px;
   text-align: justify;
 }
@@ -102,12 +102,12 @@
 }
 
 .pos_p {
-  font-family: "EB Garamond", serif;
+  font-family: "Open Sans", serif;
 }
 
 .pos_title {
   text-align: center;
-  font-family: "EB Garamond", serif;
+  font-family: "Open Sans", serif;
 }
 
 .cont_para_style {
@@ -117,7 +117,7 @@
   height: auto;
   padding-bottom: 20px;
   padding-top: 20px;
-  font-family: "EB Garamond", serif;
+  font-family: "Open Sans", serif;
   font-size: 20px;
   text-indent: 30px;
   text-align: justify;

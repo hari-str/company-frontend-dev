@@ -31,7 +31,7 @@ const Header = () => {
             <div className="header__logo container">
               <NavLink to="/">
                 <img
-                  src="https://www.kitkatsoftwaretechnologies.com/images/kitkat.jpg"
+                  src="https://res.cloudinary.com/denokpulg/image/upload/v1659683872/logo_3_mdyv1t.png"
                   alt="logo"
                 />
               </NavLink>
