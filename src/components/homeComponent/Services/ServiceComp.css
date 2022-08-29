@@ -148,3 +148,8 @@
 }
 
 /* tab */
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .row__item {
+    width: 38%;
+  }
+}
